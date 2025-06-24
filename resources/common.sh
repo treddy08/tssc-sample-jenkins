@@ -81,4 +81,4 @@ echo "Results: $RESULTS"
 export PATH=$PATH:/usr/local/bin
 
 # env.sh comes from the users repo in rhtap/env.sh
-source $DIR/rhtap/env.sh
+# source $DIR/rhtap/env.sh
