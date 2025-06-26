@@ -65,7 +65,7 @@ function patch-gitops() {
             echo 'Do you have correct git credentials configured?'
             exit_with_fail_result
         }
-    echo "Successfully updated development image from ${old_image} to ${PARAM_IMAGE}"
+    echo "Successfully updated ${ENVIRONMENT} image from ${old_image} to ${PARAM_IMAGE}"
 
 }
 
